@@ -7,7 +7,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Table View Controller-->
+        <!--Favourite-->
         <scene sceneID="pEh-Dw-Ehg">
             <objects>
                 <tableViewController storyboardIdentifier="favID" id="nMp-Dl-p23" sceneMemberID="viewController">
@@ -30,7 +30,7 @@
                             <outlet property="delegate" destination="nMp-Dl-p23" id="4Y0-Pq-ZGV"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="" image="heart.fill" catalog="system" id="7Fm-i7-uJa"/>
+                    <tabBarItem key="tabBarItem" title="Favourite" image="heart.fill" catalog="system" id="7Fm-i7-uJa"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kKD-Aq-0ke" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
