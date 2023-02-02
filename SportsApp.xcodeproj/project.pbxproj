@@ -18,6 +18,7 @@
 		0331FE4B298B031300483B2E /* SportsAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0331FE4A298B031300483B2E /* SportsAppUITests.swift */; };
 		0331FE4D298B031300483B2E /* SportsAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0331FE4C298B031300483B2E /* SportsAppUITestsLaunchTests.swift */; };
 		0331FE5A298B035300483B2E /* Favourites.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0331FE59298B035300483B2E /* Favourites.storyboard */; };
+		03A3BE75298BF7DA00C40A81 /* TabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A3BE74298BF7DA00C40A81 /* TabBarVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		0331FE4A298B031300483B2E /* SportsAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsAppUITests.swift; sourceTree = "<group>"; };
 		0331FE4C298B031300483B2E /* SportsAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		0331FE59298B035300483B2E /* Favourites.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Favourites.storyboard; sourceTree = "<group>"; };
+		03A3BE74298BF7DA00C40A81 /* TabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				0331FE37298B031300483B2E /* Info.plist */,
 				0331FE2F298B031100483B2E /* SportsApp.xcdatamodeld */,
 				0331FE59298B035300483B2E /* Favourites.storyboard */,
+				03A3BE74298BF7DA00C40A81 /* TabBarVC.swift */,
 			);
 			path = SportsApp;
 			sourceTree = "<group>";
@@ -267,6 +270,7 @@
 			files = (
 				0331FE2B298B031100483B2E /* ViewController.swift in Sources */,
 				0331FE27298B031100483B2E /* AppDelegate.swift in Sources */,
+				03A3BE75298BF7DA00C40A81 /* TabBarVC.swift in Sources */,
 				0331FE31298B031100483B2E /* SportsApp.xcdatamodeld in Sources */,
 				0331FE29298B031100483B2E /* SceneDelegate.swift in Sources */,
 			);
