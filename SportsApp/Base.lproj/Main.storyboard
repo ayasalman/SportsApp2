@@ -24,10 +24,10 @@
             </objects>
             <point key="canvasLocation" x="1028.2442748091603" y="4.9295774647887329"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Tab BarVC-->
         <scene sceneID="6sW-wa-C7D">
             <objects>
-                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="2PR-qO-rJ3" sceneMemberID="viewController">
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="2PR-qO-rJ3" customClass="TabBarVC" customModule="SportsApp" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="aN9-RD-iWy">
                         <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
@@ -35,7 +35,7 @@
                         <color key="backgroundColor" red="0.44392717790043396" green="0.25497187253203524" blue="0.4965764925335393" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <color key="barTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <color key="selectedImageTintColor" systemColor="tintColor"/>
+                        <color key="selectedImageTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="yk2-YE-GkI"/>
@@ -61,9 +61,6 @@
         <image name="homekit" catalog="system" width="128" height="104"/>
         <systemColor name="systemGroupedBackgroundColor">
             <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="tintColor">
-            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
