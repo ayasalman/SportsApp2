@@ -40,14 +40,14 @@ extension ViewController : UICollectionViewDataSource{
         return 16
     }
     
-    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+   func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: HomeCollectionViewCell.identifier, for: indexPath) as! HomeCollectionViewCell
         
         cell.configure(with: UIImage(named: "image")!)
         return cell
     }
     
-
+  
     
     
 }
