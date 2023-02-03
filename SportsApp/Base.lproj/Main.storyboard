@@ -4,7 +4,6 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="collection view cell content view" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -19,7 +18,7 @@
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="vdd-UW-zmm">
                                 <rect key="frame" x="0.0" y="125" width="393" height="644"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="lBo-WL-Zuf">
                                     <size key="itemSize" width="183" height="168"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
@@ -48,7 +47,7 @@
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="j4i-EQ-qA7"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="j4i-EQ-qA7" firstAttribute="trailing" secondItem="rqp-lI-7y7" secondAttribute="trailing" constant="18" id="1df-gc-1fI"/>
                             <constraint firstItem="rqp-lI-7y7" firstAttribute="leading" secondItem="j4i-EQ-qA7" secondAttribute="leading" constant="18" id="3q4-3N-q6G"/>
@@ -104,8 +103,5 @@
     </scenes>
     <resources>
         <image name="homekit" catalog="system" width="128" height="104"/>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
     </resources>
 </document>
