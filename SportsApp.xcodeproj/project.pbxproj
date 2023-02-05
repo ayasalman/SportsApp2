@@ -117,10 +117,6 @@
 		0331FE25298B031100483B2E /* SportsApp */ = {
 			isa = PBXGroup;
 			children = (
-				4C59AB02298EB65F00E58289 /* Utilities */,
-				4C59AB03298EB66900E58289 /* Model */,
-				4C59AB04298EB67800E58289 /* View */,
-				4C59AB05298EB68000E58289 /* View Model */,
 				0331FE26298B031100483B2E /* AppDelegate.swift */,
 				0331FE28298B031100483B2E /* SceneDelegate.swift */,
 				0331FE2A298B031100483B2E /* ViewController.swift */,
@@ -156,34 +152,6 @@
 				0331FE4C298B031300483B2E /* SportsAppUITestsLaunchTests.swift */,
 			);
 			path = SportsAppUITests;
-			sourceTree = "<group>";
-		};
-		4C59AB02298EB65F00E58289 /* Utilities */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Utilities;
-			sourceTree = "<group>";
-		};
-		4C59AB03298EB66900E58289 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		4C59AB04298EB67800E58289 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		4C59AB05298EB68000E58289 /* View Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "View Model";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
